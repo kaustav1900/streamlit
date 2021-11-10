@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
  
 # loading the trained model
-pickle_in = open('/Users/kaustav/Documents/Python/StreamLit/cls/classifier1.pkl', 'rb') 
+pickle_in = open('classifier1.pkl', 'rb') 
 classifier = pickle.load(pickle_in)
  
 @st.cache()
