@@ -78,7 +78,8 @@ def main():
     # front end elements of the web page 
     html_temp = """ 
     <div style ="background-color:blue;padding:13px"> 
-    <h1 style ="color:black;text-align:center;">Streamlit Churn Prediction</h1> 
+    <h1 style ="color:black;text-align:center;">Streamlit Churn Prediction</h1>
+    <img src="Tivian.png" alt="Tivian" width="100" height="150">
     </div> 
     """
       
